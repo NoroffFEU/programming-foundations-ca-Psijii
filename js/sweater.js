@@ -22,7 +22,7 @@ const sweater = {
 };
 
 console.log(sweater.checkAvailability("M", "Navy")); 
-// Output: The M Navy Polo Ralph Lauren Knit Sweater is in stock.
+// Output: The M Navy Polo Ralph Lauren Knit Sweater is in closet.
 
 
 
