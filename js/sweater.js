@@ -5,13 +5,13 @@ const sweater = {
   size: ["S", "M", "L", "XL"],
   color: ["Navy", "Grey", "White"],
   price: 189.99,
-  inStock: true,
-  onSale: false,
+  inCloset: true,
+  isWorn: false,
   checkAvailability: function(size, color) {
     if (this.size.includes(size) && this.color.includes(color)) {
-      return `The ${size} ${color} ${this.brand} ${this.model} is in stock.`;
+      return `The ${size} ${color} ${this.brand} ${this.model} is in closet`;
     } else {
-      return `Sorry, the ${size} ${color} ${this.brand} ${this.model} is not available.`;
+      return `Sorry, the ${size} ${color} ${this.brand} ${this.model} is not worn.`;
     }
   },
   details: {
