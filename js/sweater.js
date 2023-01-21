@@ -11,7 +11,7 @@ const sweater = {
     if (this.size.includes(size) && this.color.includes(color)) {
       return `The ${size} ${color} ${this.brand} ${this.model} is in closet`;
     } else {
-      return `Sorry, the ${size} ${color} ${this.brand} ${this.model} is not worn.`;
+      return `The ${size} ${color} ${this.brand} ${this.model} is not worn.`;
     }
   },
   details: {
